@@ -1,0 +1,10 @@
+name = input("TUMARA NAME KYA HAI ?")    
+if name.isalpha():
+    print (f"HELLO, {name}!")    
+else: 
+    print("Error: name m latter only")    
+age = input("TUMARA age Kitni Hai ?")    
+if age.isdigit():
+    print (f"age= {age}")    
+else: 
+    print("error: name m number only")  
